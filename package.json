@@ -1,0 +1,30 @@
+{
+  "name": "microsoft.comclone",
+  "version": "1.0.0",
+  "description": "This website helps to understand how Tailwind CSS works on multiple divices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Microsoft",
+    "clone",
+    "Clone",
+    "Microsoft",
+    "Microsot",
+    "project",
+    "Tailwind",
+    "CSS",
+    "Project",
+    "Responsive",
+    "Project"
+  ],
+  "author": "Pritam Magdum",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.17",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.1"
+  }
+}
