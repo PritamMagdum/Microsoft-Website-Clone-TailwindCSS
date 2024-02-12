@@ -9,20 +9,41 @@
 </head>
 
 <body>
-    <div class="navbar flex justify-between items-center bg-gray-200">
-        <div class="flex items-center justify-center">
+    <!-- Navbar -->
+    <div class="navbar flex justify-between items-center bg-gray-200 p-4">
 
-            <div class="hamburger inline-block p-4 cursor-pointer">
+        <div class="flex items-center justify-center md:order-1">
+            <div class="hamburger inline-block px-2 cursor-pointer md:hidden">
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
             </div>
-            <div class="search">SearchIcon</div>
+            <div class="search md:hidden">SearchIcon</div>
         </div>
-        <div class="logo text-center">Microsoft</div>
-        <div class="Cart text-center">Cart Account</div>
+
+        <div class="logo flex text-center">
+            <div class="microsoft">
+                Microsoft
+            </div>
+            <div
+                class="features absolute w-fit md:w-auto md:static bg-gray-200 md:bg-auto inset-0 md:flex md:mx-4 -translate-x-96 md:space-x-2 md:translate-x-0">
+                <div class="item">Microsoft 365</div>
+                <div class="item">Teams</div>
+                <div class="item">Copilot</div>
+                <div class="item">Windows</div>
+                <div class="item">Surface</div>
+                <div class="item">Xbox</div>
+                <div class="item">Support</div>
+            </div>
+        </div>
+
+        <div class="Cart flex text-center md:order-3">
+            <div class="search hidden mx-1 md:block">All Microsoft SearchIcon</div>
+            <div>Cart Account</div>
+        </div>
 
     </div>
+
 </body>
 
 </html>
