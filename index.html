@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/Mslogoblack.svg" type="image/x-icon">
     <title>Microsoft - Cloud, Computers, Apps and Gaming</title>
 </head>
 
 <body>
     <!-- Navbar -->
-    <div class="navbar flex justify-between items-center bg-gray-200 p-4">
+    <div class="navbar flex justify-between items-center p-4 md:mx-14">
 
         <div class="flex items-center justify-center md:order-1">
             <div class="hamburger inline-block px-2 cursor-pointer md:hidden">
@@ -21,25 +22,45 @@
             <div class="search md:hidden">SearchIcon</div>
         </div>
 
-        <div class="logo flex text-center">
+        <div class="logo flex items-center">
             <div class="microsoft">
-                Microsoft
+                <img src="images//Microsoft.png" alt="Microsoft" class="h-6 mr-4">
             </div>
             <div
-                class="features absolute w-fit md:w-auto md:static bg-gray-200 md:bg-auto inset-0 md:flex md:mx-4 -translate-x-96 md:space-x-2 md:translate-x-0">
-                <div class="item">Microsoft 365</div>
-                <div class="item">Teams</div>
-                <div class="item">Copilot</div>
-                <div class="item">Windows</div>
-                <div class="item">Surface</div>
-                <div class="item">Xbox</div>
-                <div class="item">Support</div>
+                class="features absolute text-sm w-fit md:w-auto md:static bg-gray-200 md:bg-auto inset-0 md:flex md:mx-4 -translate-x-96 md:space-x-6 md:translate-x-0 md:bg-white ">
+                <div class="item cursor-pointer">Microsoft 365</div>
+                <div class="item cursor-pointer">Teams</div>
+                <div class="item cursor-pointer">Copilot</div>
+                <div class="item cursor-pointer">Windows</div>
+                <div class="item cursor-pointer">Surface</div>
+                <div class="item cursor-pointer">Xbox</div>
+                <div class="item cursor-pointer">Support</div>
             </div>
         </div>
 
         <div class="Cart flex text-center md:order-3">
             <div class="search hidden mx-1 md:block">All Microsoft SearchIcon</div>
             <div>Cart Account</div>
+        </div>
+
+    </div>
+
+    <div class="slider flex flex-col-reverse md:flex-row md:bg-[#ede5f0]">
+        <div class="left flex flex-col justify-center py-5 md:items-center">
+            <p class=" bg-yellow-400 font-medium px-3 w-fit ml-4">New</p>
+            <h1 class="text-2xl font-medium ml-4 md:ml-0 md:w-3/4 py-2">Get more from Copilot</h1>
+            <p class="mx-5 md:w-3/4 md:items-baseline py-2">See how your everyday AI companion can help enhance life and
+                work.</p>
+            <div class="buttons flex my-2">
+                <button class="mx-5 bg-blue-600 text-white py-1.5 hover:bg-blue-700 px-4">For individuals</button>
+                <button class="mx-5 text-blue-600 font-medium">For business ></button>
+            </div>
+            <div class="hr md:none px-4">
+                <hr>
+            </div>
+        </div>
+        <div class="right">
+            <img src="images/ms.webp" alt="Image">
         </div>
 
     </div>
