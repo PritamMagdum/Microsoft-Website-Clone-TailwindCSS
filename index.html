@@ -3,16 +3,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Microsoft - Cloud, Computers, Apps and Gaming</title>
+    <title>Microsoft - Cloud, Computers, Apps & Gamming</title>
 </head>
 
 <body>
+
     <!-- Navbar -->
     <div class="navbar flex justify-between items-center p-3 md:mx-14">
-
         <div class="flex items-center justify-center md:order-1">
             <div class="hamburger inline-block px-2 cursor-pointer md:hidden">
                 <div class="line h-0.5 w-6 my-1 bg-black"></div>
@@ -24,116 +24,519 @@
 
         <div class="logo flex items-center">
             <div class="microsoft">
-                <img src="images//Microsoft.png" alt="Microsoft" class="h-6 mr-4 cursor-pointer">
+                <a href="https://www.microsoft.com/en-in/"><img src="images//Microsoft.png" alt="Microsoft"
+                        class="h-6 mr-4"></a>
             </div>
             <div
-                class="features absolute text-s w-fit md:w-auto md:static bg-gray-200 md:bg-auto inset-0 md:flex md:mx-4 -translate-x-96 md:space-x-6 md:translate-x-0 md:bg-white ">
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Microsoft 365</div>
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Teams</div>
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Copilot</div>
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Windows</div>
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Surface</div>
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Xbox</div>
-                <div class="item cursor-pointer hover:underline hover:underline-offset-8">Support</div>
+                class="features absolute text-[13px] w-fit md:w-auto md:static bg-gray-200 md:bg-auto inset-0 md:flex md:mx-4 -translate-x-96 md:space-x-6 md:translate-x-0 md:bg-white ">
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://www.microsoft.com/en-in/microsoft-365">Microsoft 365</a>
+                </div>
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://www.microsoft.com/en-in/microsoft-teams/group-chat-software">Teams</a></div>
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://copilot.microsoft.com/">Copilot</a></div>
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://www.microsoft.com/en-in/windows/?r=1">Windows</a></div>
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://www.microsoft.com/en-in/surface">Surface</a></div>
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://www.xbox.com/en-US/">Xbox</a></div>
+                <div class="item hover:underline hover:underline-offset-4 decoration-2"><a
+                        href="https://support.microsoft.com/en-us">Support</a></div>
             </div>
         </div>
 
         <div class="Cart flex items-center md:order-3">
-            <div class="search hidden mx-4 text-s md:block cursor-pointer hover:underline hover:underline-offset-8">All
-                Microsoft ></div>
+            <div
+                class="search hidden mx-4 text-[13px] md:block cursor-pointer hover:underline hover:underline-offset-4 decoration-2 lg:flex lg:flex-row items-center">
+                All
+                Microsoft <img src="images/downarrow.png" alt="downarrow" class="h-2 hidden lg:block pl-2"></div>
             <img src="images/search.png" alt="Search" class="h-8 cursor-pointer hidden md:block">
             <div class="AccountCart flex">
                 <img src="images/cart.png" class="h-6 px-2 cursor-pointer" alt="Cart">
-                <img src="images/account.jpg" class="h-6 px-2 cursor-pointer" alt="">
+                <a
+                    href="https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=21&ct=1707986117&rver=7.3.6960.0&wp=MBI_SSL&wreply=https%3a%2f%2fwww.microsoft.com%2frpsauth%2fv1%2faccount%2fSignInCallback%3fstate%3deyJSdSI6Imh0dHBzOi8vd3d3Lm1pY3Jvc29mdC5jb20vZW4taW4vIiwiTGMiOiIxNjM5MyIsIkhvc3QiOiJ3d3cubWljcm9zb2Z0LmNvbSJ9&lc=16393&id=74335&aadredir=0">
+                    <img src="images/account.jpg" class="h-6 px-2" alt="Accont"></a>
             </div>
         </div>
-
     </div>
 
     <!-- Caurosel Body -->
-    <div class="slider flex flex-col-reverse md:flex-row md:bg-[#ede5f0]">
-        <div class="left flex flex-col justify-center py-6 md:items-center">
-            <p class=" bg-yellow-400 font-medium px-3 py-0.5 w-fit ml-6">New</p>
-            <h1 class="text-2xl font-medium ml-6 py-2">Get more from Copilot</h1>
-            <p class="mx-6 md:w-3/4 pb-3">See how your everyday AI companion can help enhance life and
-                work.</p>
-            <div class="buttons flex my-2 mb-5">
-                <button class="mx-6 bg-blue-700 text-white font-medium py-2 hover:bg-blue-700 px-4 rounded-sm">For
-                    individuals</button>
-                <button class="mx-5 text-blue-600 font-medium">For business ></button>
+    <div class="slider flex flex-col-reverse md:flex-row">
+
+        <div
+            class="left flex md:w-1/2 md:place-items-center md:justify-center md:bg-[#ede5f0] shadow-md md:shadow-none">
+            <div class="py-5 md:pl-20 ">
+                <p class=" bg-[#ffb900] text-xl font-medium px-3 py-0.5 w-fit ml-6 ">New</p>
+                <h1 class="text-2xl font-medium ml-6 py-2 md:w-fit md:text-3xl">Get more from Copilot</h1>
+                <p class="mx-6 md:w-3/4 text-lg pb-3 md:text-lg">See how your everyday AI companion can help enhance
+                    life and
+                    work.</p>
+                <div class="buttons flex my-2 mb-5">
+                    <button
+                        class="mx-6 bg-sky-700 text-white font-medium py-2 hover:bg-sky-800 px-4 rounded-sm text-lg"><a
+                            href="https://www.microsoft.com/en-in/store/b/copilotpro?icid=mscom_marcom_H1a_CopilotPro">For
+                            individuals</a></button>
+                    <button class="mx-5 text-sky-700 font-medium text-lg hover:underline"><a
+                            href="https://www.microsoft.com/en-in/microsoft-365/business/copilot-for-microsoft-365?icid=mscom_marcom_H1b_M365forBusiness_Copilot">For
+                            business
+                            ></a></button>
+                </div>
             </div>
-            <div class="hr md:none px-4">
-                <hr>
-            </div>
-        </div>
-        <div class="right">
-            <img src="images/ms.webp" alt="Image">
+
+
         </div>
 
+        <div class="right md:w-1/2 ">
+            <img src="images/ms.webp" alt="Image" class=" md:h-[39rem]">
+        </div>
     </div>
 
     <!-- Previous and Next Button Body -->
-    <div class="PreNext">
-
+    <div class="PreNext flex items-center space-x-6 justify-center py-8">
+        <img src="images/playicon.png" alt="Play" class="h-6 cursor-pointer">
+        <img src="images/leftarrow.jpg" alt="left" class="h-5 cursor-pointer">
+        <img src="images/dot-fill.svg" alt="dotfill" class="h-8">
+        <img src="images/dot-unfill.png" alt="dotunfill" class="h-4">
+        <img src="images/rightarrow.png" alt="right" class="h-5 cursor-pointer">
     </div>
 
     <!-- Explore Body -->
     <div class="explore flex flex-wrap justify-center items-center">
         <div class="item p-7 align-baseline mx-1">
             <img src="images/Mslogoblack.svg" alt="Microsoft 365" class="h-10 m-auto">
-            <span><a href="" class="text-blue-700 underline font-medium">Choose your Microsoft 365</a></span>
+            <span><a href="https://www.microsoft.com/en-in/microsoft-365/buy/compare-all-microsoft-365-products?icid=MSCOM_QL_M365"
+                    class="text-sky-700 underline font-medium">Choose your Microsoft 365</a></span>
         </div>
         <div class="item p-7 align-baseline mx-1">
             <img src="images/xbox.svg" alt="Xbox" class="h-10 m-auto">
-            <span><a href="" class="text-blue-700 underline font-medium">Shop Xbox games and consoles</a></span>
+            <span><a href="https://www.microsoft.com/en-in/store/b/xbox?icid=MSCOM_QL_Xbox"
+                    class="text-sky-700 underline font-medium">Shop Xbox games and consoles</a></span>
         </div>
         <div class="item p-7 align-baseline mx-1">
             <img src="images/Mslogoblack.svg" alt="Microsoft 11" class="h-10 m-auto">
-            <span><a href="" class="text-blue-700 underline font-medium">Get Windows 11</a></span>
+            <span><a href="https://www.microsoft.com/en-in/windows/get-windows-11?icid=MSCOM_QL_Windows"
+                    class="text-sky-700 underline font-medium">Get Windows 11</a></span>
         </div>
         <div class="item p-7 align-baseline mx-1">
             <img src="images/explore.svg" alt="Explore" class="h-10 m-auto">
-            <span><a href="" class="text-blue-700 underline font-medium">Explore Surface devices</a></span>
+            <span><a href="https://www.microsoft.com/en-in/surface?icid=MSCOM_QL_Surface"
+                    class="text-sky-700 underline font-medium">Explore Surface devices</a></span>
         </div>
     </div>
 
     <!-- New Products -->
     <div class="products flex flex-wrap pt-4 justify-center">
         <div class="item px-3 py-10 align-baseline max-w-[19rem]">
-            <img src="images/surfaceLaptop.jpeg" alt="Surface Laptop" class="">
-            <h2 class="text-2xl font-medium">Surface Laptop 5</h2>
-            <span class="w-3/4">
+            <img src="images/surfaceLaptop.jpeg" alt="Surface Laptop" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Surface Laptop 5</h2>
+            <span class="w-3/4 md:text-base">
                 Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows 11.
             </span>
-            <span class="text-blue-700 font-medium block py-6"><a href="">Learn more ></a></span>
+            <span class="text-sky-700 font-medium text-lg block py-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/surface/devices/surface-laptop-5?icid=mscom_marcom_CPH1a_SurfaceLaptop5&activetab=pivot:overviewtab">Learn
+                    more ></a></span>
         </div>
         <div class="item  px-3 py-10 align-baseline max-w-[19rem]">
-            <img src="images/surfaceStudio.webp" alt="Surface Studio" class="">
-            <h2 class="text-2xl font-medium">Surface Laptop Studio</h2>
-            <span class="w-3/4">
+            <img src="images/surfaceStudio.webp" alt="Surface Studio" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Surface Laptop Studio</h2>
+            <span class="w-3/4 md:text-base">
                 Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows 11.
             </span>
-            <span class="text-blue-700 font-medium block py-6"><a href="">Learn more ></a></span>
+            <span class="text-sky-700 text-lg font-medium block py-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/surface/devices/surface-laptop-studio?icid=mscom_marcom_CPH2a_SurfaceLaptopStudio&activetab=pivot:overviewtab">Learn
+                    more ></a></span>
         </div>
         <div class="item px-3 py-10 align-baseline max-w-[19rem]">
-            <img src="images/xbox.webp" alt="Xbox" class="">
-            <h2 class="text-2xl font-medium">Xbox Series X</h2>
-            <span class="w-3/4">
+            <img src="images/xbox.webp" alt="Xbox" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Xbox Series X</h2>
+            <span class="w-3/4 md:text-base">
                 The fastest, most powerful Xbox ever.
             </span>
-            <span class="text-blue-700 font-medium block py-6"><a href="">Learn more ></a></span>
+            <span class="text-sky-700 font-medium text-lg block py-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.xbox.com/en-in/consoles/xbox-series-x?icid=mscom_marcom_CPH3a_XboxSeriesX">Learn
+                    more ></a></span>
         </div>
         <div class="item px-3 py-10 align-baseline max-w-[19rem]">
-            <img src="images/lifestyle.webp" alt="Lifestyle" class="">
-            <h2 class="text-2xl font-medium">Maximize the everyday with Microsoft 365</h2>
-            <span class="w-3/4">
+            <img src="images/lifestyle.webp" alt="Lifestyle" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Maximize the everyday with Microsoft 365</h2>
+            <span class="w-3/4 md:text-base">
                 Get online protection, secure cloud storage and innovative apps designed to fit your needs - all in
                 one plan.
             </span>
-            <span class="text-blue-700 font-medium block pt-6"><a href="">For one person ></a></span>
-            <span class="text-blue-700 font-medium block py-4"><a href="">For upto six people ></a></span>
+            <span class="text-sky-700 font-medium text-lg block pt-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf?icid=mscom_marcom_CPH4a_M365Personal">For
+                    one person ></a></span>
+            <span class="text-sky-700 font-medium text-lg block py-4 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?icid=mscom_marcom_CPH4b_M365Family&activetab=pivot:overviewtab">For
+                    upto six people ></a></span>
         </div>
     </div>
+
+    <!-- XBOX Series S -->
+    <div class="pt-10 xboxHero flex flex-col-reverse px-3 lg:relative">
+        <div
+            class="left py-3 pl-4 md:mx-4 bg-white lg:absolute md:-translate-y-20 md:shadow-lg lg:bg-inherit lg:shadow-none lg:-translate-y-60 lg:translate-x-40">
+            <span class="text-2xl font-medium lg:text-[28px]">Xbox Series S</span>
+            <span class="block py-3 text-base">Next-gen performance in the smallest Xbox ever</span>
+            <button
+                class="block py-2.5 text-white px-4 text-base rounded-sm font-semibold bg-[#0067b8] my-3 cursor-pointer hover:bg-[#0067a8]"><a
+                    href="https://www.xbox.com/en-in/consoles/xbox-series-s?icid=mscom_marcom_MPH1a_XboxSeriesS">Shop
+                    Xbox
+                    Series
+                    S</a></button>
+        </div>
+
+        <div class="right flex pb-8 m-auto">
+            <img src="images/XBoxHero.webp" alt="" class=" w-[75rem]">
+        </div>
+    </div>
+
+    <!-- For Business -->
+    <div class="forBusiness ml-5 pt-12 text-[1.7rem] -mb-7 lg:text-3xl lg:-mb-5 font-medium md:ml-18 lg:ml-[75px]">
+        <span>For business</span>
+    </div>
+
+    <div class="products flex flex-wrap justify-center">
+        <div class="item px-3 py-10 align-baseline max-w-[19.1rem]">
+            <img src="images/surfacebusiness.webp" alt="Surface Laptop" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Surface for Business</h2>
+            <span class="w-3/4 md:text-base">
+                No matter what you do, there’s a Surface to help you do it.
+            </span>
+            <span class="text-sky-700 font-medium text-base block py-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/surface/business?icid=mscom_marcom_CPW1a_SurfaceforBusiness">Shop
+                    now ></a></span>
+        </div>
+        <div class="item  px-3 py-10 align-baseline max-w-[19.1rem]">
+            <img src="images/microsoftTeam.webp" alt="Surface Studio" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Get Microsoft Teams for free</h2>
+            <span class="w-3/4 md:text-base">
+                Online meetings, chat and shared cloud storage – all in one place.
+            </span>
+            <span class="text-sky-700 font-medium block text-base py-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/microsoft-teams/group-chat-software?icid=mscom_marcom_CPW2a_MicrosoftTeams">Sign
+                    up for free ></a></span>
+        </div>
+        <div class="item px-3 py-10 align-baseline max-w-[19.1rem]">
+            <img src="images/openAI.jpeg" alt="Xbox" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Join the era of AI</h2>
+            <span class="w-3/4 md:text-base">
+                Create, communicate, and code with the latest Microsoft AI solutions.
+            </span>
+            <span class="text-sky-700 font-medium block text-base py-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/ai?icid=mscom_marcom_CPW3a_AzureAI">Explore AI solutions
+                    ></a></span>
+        </div>
+        <div class="item px-3 py-10 align-baseline max-w-[19.1rem]">
+            <img src="images/microsoft365.webp" alt="Lifestyle" class="min-w-full">
+            <h2 class="text-2xl font-medium py-4">Welcome to your Windows 365 Cloud PC
+            </h2>
+            <span class="w-3/4 md:text-base">
+                Securely stream your Windows experience from the Microsoft cloud to any device.
+            </span>
+            <span class="text-sky-700 font-medium text-base block pt-6 hover:underline underline-offset-2 w-fit"><a
+                    href="https://www.microsoft.com/en-in/windows-365?icid=mscom_marcom_CPW4a_Windows365">Get it today
+                    ></a></span>
+        </div>
+    </div>
+
+    <!-- Follow Microsoft -->
+    <div class="follow pt-10  md:pt-14 lg:pt-20 flex pl-6 lg:pl-[5.5rem] text-lg flex-row items-center">
+        <span>Follow Microsoft</span>
+        <a href="https://www.facebook.com/MicrosoftIndia"><img src="images/Facebook.webp" alt="Facebook"
+                class="h-8 pl-6 px-3"></a>
+        <a href="https://twitter.com/microsoftindia"><img src="images/twitter.webp" alt="Twitter" class="h-8 px-3"></a>
+        <a href="https://www.youtube.com/user/IndiaMicrosoftVideos"><img src="images/YouTube.webp" alt="Youtube"
+                class="h-8 px-3"></a>
+    </div>
+    <div class="flex justify-end pt-4">
+
+        <span
+            class="float-right hover:bg-white hover:shadow-md lg:text-lg pl-1 px-5 py-2 rounded-sm bg-gray-300 font-medium mx-4">
+            <a href="#" class="flex flex-row items-center"><img src="images/uparrow.png" alt="uparrow"
+                    class="h-4 px-2">Back to
+                top</a></span>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer flex flex-wrap mt-16 bg-[#f2f2f2]">
+        <div class="item w-[33.33333%] md:w-[16.66666%] pt-[36px] pl-[18px]">
+            <h3 class="headings font-medium text-[15px] text-[#616161] py-2">What's new</h3>
+            <ul>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/microsoft-365">Microsoft 365</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/store/b/xbox?icid=IN_UHF_Footer_Games">Games</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://www.microsoft.com/en-in/surface/devices/surface-pro-9?icid=IN_UHF_Footer_SurfacePro9&activetab=pivot:overviewtab">Surface
+                        Pro 9</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://www.microsoft.com/en-in/surface/devices/surface-laptop-5?icid=IN_UHF_Footer_SurfaceLaptop5&activetab=pivot:overviewtab">Surface
+                        Laptop 5</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://www.microsoft.com/en-in/surface/devices/surface-laptop-go-2?icid=IN_UHF_Footer_SurfaceLaptopGo2&activetab=pivot:overviewtab">Surface
+                        Laptop Go 2</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/windows/windows-11-apps?icid=IN_UHF_Footer_Windows11apps">Windows
+                        11 apps</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="item  w-[33.33333%] md:w-[16.66666%] pt-[36px]">
+            <h3 class="headings font-medium text-[15px] text-[#616161] py-2">Microsoft Store</h3>
+            <ul>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://account.microsoft.com/account/Account?refd=www.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2F%3Frefd%3Dwww.microsoft.com&destrt=home.landing">Account
+                        profile</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/download">Download Center</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://support.microsoft.com/en-us/microsoft-store-and-billing?ocid=MS_Footer_StoreSupport">Microsoft
+                        Store Support</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://support.microsoft.com/en-us/account-billing/returning-items-you-bought-from-microsoft-for-exchange-or-refund-81629012-aa4f-f48b-2394-8596f415072b">Returns</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a
+                        href="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?scope=service::account.microsoft.com::MBI_SSL+openid+profile+offline_access&response_type=code&client_id=81feaced-5ddd-41e7-8bef-3e20a2689bb7&redirect_uri=https:%2F%2Faccount.microsoft.com%2Fauth%2Fcomplete-signin-oauth&client-request-id=3f281196-4ac7-427f-8066-deb20946336b&x-client-SKU=MSAL.Desktop&x-client-Ver=4.58.1.0&x-client-OS=Windows+Server+2019+Datacenter&prompt=login&client_info=1&state=H4sIAAAAAAAEAA3P24JCQAAA0H_p1QNaDT0WMWGSa6s3uYxcZoaQ8fW75w_ObvriuOXr61tmtV0vpwOT1k8zuQD2hRWwPHsbEfoMXtfhOG2SY8Uekj2lo2PfC28vRHsLCC7skMpadUmeowbpfogcVP5mRvUasDmlrssJ0m3Jn2iwmRvgsjILlcXWuC5B95W5I8rYF-7J1zyGx3XVrz5dfp5YlwseFr7mbr6hSG3EODmMtiM4ox5ohpQq5n2-bANHljo0eoVCBbeVCclCRNmMRm27Qx2OlJY3q4UMj4QYa9JPycaJ3nzm5zAHse3dmtPMGLhmFlE41bpGn95XOZL2ucZ6euidDY_hjxfWAokeilyqC7xV7VsEaLglaJk75VxAA1z6_367iOdHm_FSxHWOCku6GjS9qNhyzj0F86fJDTfwlmMa5hoMpk1JwO4PcOdINoIBAAA&msaoauth2=true&lc=1033">Order
+                        tracking</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="item w-[33.33333%] md:w-[16.66666%] pt-[36px]">
+            <h3 class="headings font-medium text-[15px] text-[#616161] py-2">Education</h3>
+            <ul>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/education">Microsoft in education</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/education/devices/overview">Devices for education</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/education/products/teams">Microsoft Teams for Education</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/education/products/microsoft-365">Microsoft 365
+                        Education</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/education/products/office">Office Education</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://learn.microsoft.com/en-us/training/educator-center/?source=mec">Educator training
+                        and development</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-us/store/b/education">Deals for students and parents</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://azure.microsoft.com/en-in/free/students/">Azure for students</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="item w-[33.33333%] md:w-[16.66666%] pt-[36px] pl-[18px]">
+            <h3 class="headings font-medium text-[15px] text-[#616161] py-2">Business</h3>
+            <ul>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/microsoft-cloud">Microsoft Cloud</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/security">Microsoft Security</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://azure.microsoft.com/en-in/">Azure</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/dynamics-365">Dynamics 365</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/microsoft-365/business">Microsoft 365</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://about.ads.microsoft.com/en-in">Microsoft Advertising</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/industry">Microsoft Industry</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/microsoft-teams/group-chat-software">Microsoft Teams</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="item w-[33.33333%] md:w-[16.66666%] pt-[36px]">
+            <h3 class="headings font-medium text-[15px] text-[#616161] py-2">Developer & IT</h3>
+            <ul class="inline-block">
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://developer.microsoft.com/en-us/">Developer Center</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://learn.microsoft.com/en-us/docs/">Documentation</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://learn.microsoft.com/en-us/">Microsof Learn</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://techcommunity.microsoft.com/">Microsoft Tech Community</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://azuremarketplace.microsoft.com/en-in/">Azure Marketplace</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://appsource.microsoft.com/en-in/">AppSource</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/power-platform">Microsoft Power Platform</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://visualstudio.microsoft.com/">Visual Studio</a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="item w-[33.33333%] md:w-[16.66666%] pt-[36px]">
+            <h3 class="headings font-medium text-[15px] text-[#616161] py-2">Company</h3>
+            <ul class="inline-block">
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://careers.microsoft.com/">Careers</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/about">About Microsoft</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://news.microsoft.com/source/asia/region/india/">Company news</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://privacy.microsoft.com/en-ca">Privacy at Microsoft</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-us/investor">Investors</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/security/default.aspx">Security</a>
+                </li>
+                <li
+                    class="text-[11px] text-[#616161] leading-4 py-1.5 hover:underline underline-offset-2 hover:text-black w-fit">
+                    <a href="https://www.microsoft.com/en-in/sustainability/">Sustainability</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Location -->
+    <div class="location bg-[#f2f2f2] text-[#616161] md:flex flex-wrap items-center pt-20 pb-5 pl-[18px]">
+        <div class="combo flex flex-wrap">
+            <div class="india flex flex-row items-center">
+                <img src="images/earth.svg" alt="Image" class="h-5 text-[#f2f2f2]">
+                <span class="text-xs px-3 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://www.microsoft.com/en-in/locale">English
+                        (India)</a></span>
+            </div>
+            <div class="privacy flex flex-row items-center">
+                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16"
+                    width="43">
+                    <title>California Consumer Privacy Act (CCPA) Opt-Out Icon</title>
+                    <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff" />
+                    <path
+                        d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f" />
+                    <path
+                        d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+                        style="fill:#fff" />
+                    <path
+                        d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+                        style="fill:#06f" />
+                </svg>
+                <span class="text-xs px-2 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://account.microsoft.com/privacy/third-party-ads?scrolltonewtoggle=true">Your Privacy
+                        Choices</a></span>
+            </div>
+        </div>
+        <div class="about flex pb-2 lg:block place-content-end lg:translate-x-[28rem]">
+            <ul class="flex flex-wrap text-xs space-x-3 items-center">
+                <li class="pt-[6px] pr-[10px] min-w-4 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://support.microsoft.com/contactus">Contact
+                        Microsoft</a>
+                </li>
+                <li class="pt-[6px] pr-[10px] min-w-4 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://privacy.microsoft.com/en-us/privacystatement">Privacy</a></li>
+                <li class="pt-[6px] pr-[10px] min-w-4 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://www.microsoft.com/en-us/legal/terms-of-use">Terms of use</a>
+                </li>
+                <li class="pt-[6px] pr-[10px] min-w-4 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks">Trademark</a></li>
+                <li class="pt-[6px] pr-[10px] min-w-4 hover:underline underline-offset-2 hover:text-black"><a
+                        href="https://account.microsoft.com/privacy/ad-settings/signedout?refd=www.microsoft.com&ru=https%3A%2F%2Faccount.microsoft.com%2Fprivacy%2Fad-settings%3Frefd%3Dwww.microsoft.com">About
+                        our ads</a>
+                </li>
+                <li class="pt-[6px] pr-[10px] min-w-4"><span>&#169; Microsoft
+                        2024</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </body>
 
 </html>
